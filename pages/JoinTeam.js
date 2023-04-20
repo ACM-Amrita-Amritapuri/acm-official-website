@@ -72,13 +72,13 @@ function JoinTeam() {
             <div className=" grid place-items-center text-center ">
               <div className="grid sm:grid-cols-3 sm:grid-rows-1  grid-rows-3 place-items-center">
                 <div className="grid-rows-2 grid place-items-center sm:place-items-start">
-                <p className="jointext "> JOIN</p>
-                <p className="ourteam "> OUR TEAM</p>
+                  <p className="jointext "> JOIN</p>
+                  <p className="ourteam "> OUR TEAM</p>
                 </div>
                 <div className="flex items-center justify-center">
-            <Button2 message={"GET IN TOUCH"} />
-          </div>
-                <p className="text-xl break-words pl-12 pr-12 font-light">
+                  <Button2 message={"GET IN TOUCH"} />
+                </div>
+                <p className="text-xl break-words px-12 font-light text-left">
                   The objective of the chapter to promote computer science as a
                   field of education and foster a sense of innovation and
                   creativity among computer enthusiasts.
@@ -88,29 +88,27 @@ function JoinTeam() {
           </div>
           <div className="flex justify-center">
             <div className=" grid grid-cols-1 sm:grid-cols-3 gap-24 w-3/4 sm:w-4/5">
-            {detArr.map((pgdet) => (
-                    <div className="w-full rounded border-2 border-blue-700 card-gradient" key={pgdet.id}>
-                    <div className="px-6 py-4">
-                      <div className="flex justify-center">
-                      {returnSVG(pgdet.id)}
-                      </div>
-                      <div className="flex items-center justify-center">
-                        <ObjRec className="scale-75" />
-                        <div className="font-bold text-xl ml-4 text-center">
-                          {pgdet.title}
+              {detArr.map((pgdet) => (
+                      <div className="w-full rounded border-2 border-blue-700 card-gradient" key={pgdet.id}>
+                      <div className="px-6 py-4">
+                        <div className="flex justify-center">
+                        {returnSVG(pgdet.id)}
                         </div>
+                        <div className="flex items-center justify-center">
+                          <ObjRec className="scale-75" />
+                          <div className="font-bold text-xl ml-4 text-center">
+                            {pgdet.title}
+                          </div>
+                        </div>
+                        <p className="text-white text-base text-center font-light">
+                          {pgdet.desc}
+                        </p>
                       </div>
-                      <p className="text-white text-base text-center font-light">
-                        {pgdet.desc}
-                      </p>
                     </div>
-                  </div>
-                 ))}
-              
+               ))} 
             </div>
           </div>
-        </div>
-        
+        </div> 
       </div>
       <Footer />
     </div>
