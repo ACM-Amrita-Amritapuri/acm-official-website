@@ -1,13 +1,13 @@
 /*
-    When passing functions make sure they are in this form:
-    const functionName = ()=>{
+    When passing functions make sure they are in this form (Arrow Function):
+    const functionName = () => {
         function content
     }
  */
     const Button = ({message, buttonFunction}) => {
         
         return (
-            <div className="">
+            <div>
                 {
                     buttonFunction !=undefined &&
                     <button className="button2" onClick={()=>{buttonFunction()}}>

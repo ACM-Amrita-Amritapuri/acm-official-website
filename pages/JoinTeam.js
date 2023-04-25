@@ -64,26 +64,25 @@ function returnSVG(id) {
 function JoinTeam() {
     
   return (
-    <div className=" joinuspage pb-10 min-h-screen">
+    <div className=" joinuspage pb-10 min-h-screen overflow-x-hidden"> 
+    {/* overflow-x */}
       <Navbar />
       <div className="grid place-items-center  text-white">
-        <div className="flex flex-col gap-y-24 xl:w-[90%] mt-5 mb-5">
-          <div className="flex justify-center">
-            <div className=" grid place-items-center text-center ">
-              <div className="grid sm:grid-cols-3 sm:grid-rows-1  grid-rows-3 place-items-center">
-                <div className="grid-rows-2 grid place-items-center sm:place-items-start">
-                <p className="jointext "> JOIN</p>
-                <p className="ourteam "> OUR TEAM</p>
-                </div>
-                <div className="flex items-center justify-center">
-            <Button2 message={"GET IN TOUCH"} />
-          </div>
-                <p className="text-xl break-words pl-12 pr-12 font-light">
+        <div className="flex flex-col gap-y-24 xl:w-[90%] mt-10 mb-5">
+          <div className="flex lg:grid">
+            <div className="grid grid-rows-3 lg:grid-cols-3 lg:grid-rows-1 place-items-center text-center">
+              <div className="flex lg:grid">
+                <p className="jointext flex items-center justify-center flex-wrap ">JOIN</p>
+                <p className="ourteam flex items-center justify-center flex-wrap ">OUR TEAM</p>
+              </div>
+              <div className="flex items-center justify-center pb-10 pt-6">
+                  <Button2 message={"GET IN TOUCH"} />
+              </div>
+              <p className="text-lg text-gray-300 flex-wrap px-12 text-center font-light lg:text-start">
                   The objective of the chapter to promote computer science as a
                   field of education and foster a sense of innovation and
                   creativity among computer enthusiasts.
-                </p>
-              </div>
+              </p>
             </div>
           </div>
           <div className="flex justify-center">
