@@ -45,37 +45,37 @@ export const Navbar = ({isTransparent}) => {
                     <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center text-white font-RedRose items-start justify-between flex flex-col lg:h-auto lg:space-x-10 ">
                         <Link
                             href="/"
-                            className="lg:inline-flex lg:w-auto w-full px-3 py-2 font-Poppins rounded text-white items-center justify-center hover:text-[#217EE3]"
+                            className="lg:inline-flex lg:w-auto w-full px-3 py-2 font-Poppins rounded text-white items-center justify-center hover:text-[#217EE3] whitespace-nowrap"
                         >
                             Home
                         </Link>
                         <Link
                             href="/eventPage"
-                            className="lg:inline-flex lg:w-auto w-full px-3 py-2 font-Poppins rounded text-white items-center justify-center hover:text-[#217EE3]"
+                            className="lg:inline-flex lg:w-auto w-full px-3 py-2 font-Poppins rounded text-white items-center justify-center hover:text-[#217EE3] whitespace-nowrap"
                         >
                             Events
                         </Link>
                         <Link
                             href="/JoinTeam"
-                            className="lg:inline-flex lg:w-auto w-full px-3 py-2 font-Poppins rounded text-white items-center justify-center hover:text-[#217EE3]"
+                            className="lg:inline-flex lg:w-auto w-full px-3 py-2 font-Poppins rounded text-white items-center justify-center hover:text-[#217EE3] whitespace-nowrap"
                         >
                             Why join us?
                         </Link>
                         <Link
                             href="/"
-                            className="lg:inline-flex lg:w-auto w-full px-3 py-2 font-Poppins rounded text-white items-center justify-center hover:text-[#217EE3]"
+                            className="lg:inline-flex lg:w-auto w-full px-3 py-2 font-Poppins rounded text-white items-center justify-center hover:text-[#217EE3] whitespace-nowrap"
                         >
                             Clubs
                         </Link>
                         <Link
                             href="/projects"
-                            className="lg:inline-flex lg:w-auto w-full px-3 py-2 font-Poppins rounded text-white items-center justify-center hover:text-[#217EE3]"
+                            className="lg:inline-flex lg:w-auto w-full px-3 py-2 font-Poppins rounded text-white items-center justify-center hover:text-[#217EE3] whitespace-nowrap"
                         >
                             Projects
                         </Link>
                         <Link
                             href="/blog"
-                            className="lg:inline-flex lg:w-auto w-full px-3 py-2 font-Poppins rounded text-white items-center justify-center hover:text-[#217EE3]"
+                            className="lg:inline-flex lg:w-auto w-full px-3 py-2 font-Poppins rounded text-white items-center justify-center hover:text-[#217EE3] whitespace-nowrap"
                         >
                             Blogs
                         </Link>
