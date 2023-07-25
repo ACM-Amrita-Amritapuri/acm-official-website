@@ -1,11 +1,13 @@
-
 import { Navbar } from "../components/Navbar";
 import Footer from "../components/Footer";
 import Events from "../components/Events/Events";
 import Heading from "../components/Heading";
 import Button from "../components/Button";
+import { useRouter } from 'next/navigation';
 
 function eventPage(){
+    const router = useRouter();
+
     return(
         <div className="event-page h-[100vh] w-[100%] relative overflow-x-hidden">
             {/* Background Ellipses */}
@@ -25,7 +27,7 @@ function eventPage(){
                     <img src="/images/pastEvents/3.jpg" alt="Event Image" className="rounded-md max-h-[70%] max-w-[70%]" />
                 </div>
                 <div className="view-more self-center text-white">
-                    <Button message={"View More"}/>
+                    <Button message={"View More"} />
                 </div>
             </div>
             <Footer/>
