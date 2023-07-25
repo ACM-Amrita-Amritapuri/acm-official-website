@@ -4,7 +4,7 @@
         function content
     }
  */
-const Button = ({message, buttonFunction}) => {
+const Button = ({message, buttonFunction, callback}) => {
         
     return (
         <div className="button-parent">
@@ -16,7 +16,7 @@ const Button = ({message, buttonFunction}) => {
             }
             {
                 buttonFunction === undefined &&
-                <button className="button">
+                <button className="button" onClick={callback}>
                     {message}
                 </button>
             }
