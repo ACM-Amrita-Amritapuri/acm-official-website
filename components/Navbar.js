@@ -49,7 +49,7 @@ export const Navbar = ({isTransparent}) => {
                 >
                     <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center text-white font-RedRose items-start justify-between flex flex-col lg:h-auto lg:space-x-10 ">
                         <Link
-                            href="/"
+                            href="/HomePage"
                             className="lg:inline-flex lg:w-auto w-full px-3 py-2 font-Poppins rounded text-white items-center justify-center hover:text-[#217EE3]"
                         >
                             Home
