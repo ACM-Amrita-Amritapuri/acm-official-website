@@ -72,7 +72,7 @@ function Footer() {
                 </a>
               </button>
               <button className="transition ease-in-out hover:scale-105">
-                <a href="https://www.instagram.com/acm.amrita/">
+                <a href="https://twitter.com/icpcamritapuri">
                   <svg className="svg-icon ml-5" viewBox="0 0 20 20">
                     <path
                       fill="none"
