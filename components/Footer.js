@@ -40,7 +40,7 @@ function Footer() {
 
             <ul className="list-none mb-0">
               <li>
-                <a href="#!" className="opacity-[70%]">
+                <a href="/" className="opacity-[70%]">
                   About ACM
                 </a>
               </li>
