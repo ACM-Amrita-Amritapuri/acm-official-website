@@ -1,4 +1,6 @@
 import React from "react";
+
+
 function Footer() {
   return (
     <div className="p-20 addedbg2 ourobjbg text-white font-light">
@@ -40,17 +42,17 @@ function Footer() {
 
             <ul className="list-none mb-0">
               <li>
-                <a href="#!" className="opacity-[70%]">
+                <a href="/" className="opacity-[70%]">
                   About ACM
                 </a>
               </li>
               <li>
-                <a href="#!" className="opacity-[70%]">
+                <a href="/JoinTeam" className="opacity-[70%]">
                   Join ACM
                 </a>
               </li>
               <li>
-                <a href="#!" className="opacity-[70%]">
+                <a href="https://www.amrita.edu/campus/amritapuri/" className="opacity-[70%]">
                   Amrita Vishwa Vidyapeetham ASE,Amritapuri
                 </a>
               </li>
@@ -70,7 +72,7 @@ function Footer() {
                 </a>
               </button>
               <button className="transition ease-in-out hover:scale-105">
-                <a href="https://www.instagram.com/acm.amrita/">
+                <a href="https://twitter.com/icpcamritapuri">
                   <svg className="svg-icon ml-5" viewBox="0 0 20 20">
                     <path
                       fill="none"
