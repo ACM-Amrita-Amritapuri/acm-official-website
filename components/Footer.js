@@ -1,4 +1,5 @@
 import React from "react";
+
 function Footer() {
   return (
     <div className="p-20 addedbg2 ourobjbg text-white font-light">
@@ -45,7 +46,7 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#!" className="opacity-[70%]">
+                <a href="/JoinTeam" className="opacity-[70%]">
                   Join ACM
                 </a>
               </li>
