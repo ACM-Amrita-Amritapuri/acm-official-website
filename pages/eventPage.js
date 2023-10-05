@@ -5,6 +5,10 @@ import Events from "../components/Events/Events";
 import Heading from "../components/Heading";
 import Button from "../components/Button";
 
+const view_more = () => {
+    window.location.href='https://sites.google.com/thapar.edu/tiet-acm/past-events';
+  }
+
 function eventPage() {
     return (
         <>
@@ -29,7 +33,7 @@ function eventPage() {
                         <img src="/images/pastEvents/3.jpg" alt="Event Image" className="rounded-md max-h-[70%] max-w-[70%]" />
                     </div>
                     <div className="view-more self-center text-white">
-                        <Button message={"View More"} />
+                        <Button message={"View More"} buttonFunction={view_more}/>
                     </div>
                 </div>
                 <Footer />
